@@ -1,0 +1,486 @@
+[2022-07-03 16:14:22,797] {processor.py:153} INFO - Started process (PID=1336) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:22,798] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:14:22,798] {logging_mixin.py:115} INFO - [2022-07-03 16:14:22,798] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:22,799] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:22,810] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.014 seconds
+[2022-07-03 16:14:47,873] {processor.py:153} INFO - Started process (PID=1359) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:47,874] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:14:47,875] {logging_mixin.py:115} INFO - [2022-07-03 16:14:47,875] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:47,879] {logging_mixin.py:115} INFO - [2022-07-03 16:14:47,878] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 8
+    ) as dag:
+    ^
+SyntaxError: invalid syntax
+[2022-07-03 16:14:47,879] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:47,919] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.053 seconds
+[2022-07-03 16:14:53,897] {processor.py:153} INFO - Started process (PID=1373) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:53,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:14:53,900] {logging_mixin.py:115} INFO - [2022-07-03 16:14:53,899] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:53,904] {logging_mixin.py:115} INFO - [2022-07-03 16:14:53,902] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 9
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-07-03 16:14:53,905] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:14:53,940] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.050 seconds
+[2022-07-03 16:15:23,959] {processor.py:153} INFO - Started process (PID=1396) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:23,959] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:15:23,960] {logging_mixin.py:115} INFO - [2022-07-03 16:15:23,960] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:23,961] {logging_mixin.py:115} INFO - [2022-07-03 16:15:23,961] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 9
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-07-03 16:15:23,961] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:23,985] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.028 seconds
+[2022-07-03 16:15:37,021] {processor.py:153} INFO - Started process (PID=1419) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:37,021] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:15:37,021] {logging_mixin.py:115} INFO - [2022-07-03 16:15:37,021] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:37,022] {logging_mixin.py:115} INFO - [2022-07-03 16:15:37,022] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 11
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2022-07-03 16:15:37,023] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:37,036] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.017 seconds
+[2022-07-03 16:15:49,050] {processor.py:153} INFO - Started process (PID=1433) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:49,051] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:15:49,051] {logging_mixin.py:115} INFO - [2022-07-03 16:15:49,051] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:49,053] {logging_mixin.py:115} INFO - [2022-07-03 16:15:49,052] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 9, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:15:49,053] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:49,069] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.021 seconds
+[2022-07-03 16:15:55,079] {processor.py:153} INFO - Started process (PID=1438) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:55,080] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:15:55,080] {logging_mixin.py:115} INFO - [2022-07-03 16:15:55,080] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:55,082] {logging_mixin.py:115} INFO - [2022-07-03 16:15:55,081] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 13, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:15:55,082] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:15:55,095] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.018 seconds
+[2022-07-03 16:16:25,152] {processor.py:153} INFO - Started process (PID=1470) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:16:25,158] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:16:25,158] {logging_mixin.py:115} INFO - [2022-07-03 16:16:25,158] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:16:25,159] {logging_mixin.py:115} INFO - [2022-07-03 16:16:25,159] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 13, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:16:25,160] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:16:25,174] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.023 seconds
+[2022-07-03 16:16:55,227] {processor.py:153} INFO - Started process (PID=1502) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:16:55,237] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:16:55,238] {logging_mixin.py:115} INFO - [2022-07-03 16:16:55,238] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:16:55,240] {logging_mixin.py:115} INFO - [2022-07-03 16:16:55,239] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 13, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:16:55,241] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:16:55,259] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.034 seconds
+[2022-07-03 16:17:00,243] {processor.py:153} INFO - Started process (PID=1507) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:00,243] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:17:00,244] {logging_mixin.py:115} INFO - [2022-07-03 16:17:00,243] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:00,247] {logging_mixin.py:115} INFO - [2022-07-03 16:17:00,246] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:17:00,248] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:00,273] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.033 seconds
+[2022-07-03 16:17:30,335] {processor.py:153} INFO - Started process (PID=1539) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:30,336] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:17:30,336] {logging_mixin.py:115} INFO - [2022-07-03 16:17:30,336] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:30,338] {logging_mixin.py:115} INFO - [2022-07-03 16:17:30,337] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:17:30,338] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:30,351] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.018 seconds
+[2022-07-03 16:17:34,345] {processor.py:153} INFO - Started process (PID=1544) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:34,353] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:17:34,353] {logging_mixin.py:115} INFO - [2022-07-03 16:17:34,353] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:34,358] {logging_mixin.py:115} INFO - [2022-07-03 16:17:34,357] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:17:34,358] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:17:34,373] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.030 seconds
+[2022-07-03 16:18:04,426] {processor.py:153} INFO - Started process (PID=1576) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:18:04,427] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:18:04,427] {logging_mixin.py:115} INFO - [2022-07-03 16:18:04,427] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:18:04,430] {logging_mixin.py:115} INFO - [2022-07-03 16:18:04,429] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:18:04,430] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:18:04,448] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.023 seconds
+[2022-07-03 16:18:32,498] {processor.py:153} INFO - Started process (PID=1608) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:18:32,509] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:18:32,509] {logging_mixin.py:115} INFO - [2022-07-03 16:18:32,509] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:18:32,512] {logging_mixin.py:115} INFO - [2022-07-03 16:18:32,511] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:18:32,512] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:18:32,526] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.030 seconds
+[2022-07-03 16:19:02,586] {processor.py:153} INFO - Started process (PID=1631) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:02,598] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:19:02,598] {logging_mixin.py:115} INFO - [2022-07-03 16:19:02,598] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:02,605] {logging_mixin.py:115} INFO - [2022-07-03 16:19:02,603] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:19:02,606] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:02,620] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.043 seconds
+[2022-07-03 16:19:32,647] {processor.py:153} INFO - Started process (PID=1663) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:32,659] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:19:32,660] {logging_mixin.py:115} INFO - [2022-07-03 16:19:32,660] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:32,673] {logging_mixin.py:115} INFO - [2022-07-03 16:19:32,669] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:19:32,674] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:32,697] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.051 seconds
+[2022-07-03 16:19:52,731] {processor.py:153} INFO - Started process (PID=1686) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:52,742] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:19:52,743] {logging_mixin.py:115} INFO - [2022-07-03 16:19:52,743] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:52,757] {logging_mixin.py:115} INFO - [2022-07-03 16:19:52,753] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:19:52,758] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:19:52,805] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.077 seconds
+[2022-07-03 16:20:15,781] {processor.py:153} INFO - Started process (PID=1709) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:15,792] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:20:15,793] {logging_mixin.py:115} INFO - [2022-07-03 16:20:15,793] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:15,799] {logging_mixin.py:115} INFO - [2022-07-03 16:20:15,798] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_bash_operator_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_bash_operator_dag.py", line 16, in <module>
+    schedule_interval=  '@daily'
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 366, in __init__
+    validate_key(dag_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/helpers.py", line 64, in validate_key
+    f"The key {k!r} has to be made of alphanumeric characters, dashes, "
+airflow.exceptions.AirflowException: The key 'my bash operator dag' has to be made of alphanumeric characters, dashes, dots and underscores exclusively
+[2022-07-03 16:20:15,799] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:15,814] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.035 seconds
+[2022-07-03 16:20:22,798] {processor.py:153} INFO - Started process (PID=1714) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:22,809] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:20:22,809] {logging_mixin.py:115} INFO - [2022-07-03 16:20:22,809] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:22,813] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:22,887] {logging_mixin.py:115} INFO - [2022-07-03 16:20:22,887] {manager.py:508} INFO - Created Permission View: can read on DAG:my_bash_operator_dag
+[2022-07-03 16:20:22,895] {logging_mixin.py:115} INFO - [2022-07-03 16:20:22,895] {manager.py:508} INFO - Created Permission View: can delete on DAG:my_bash_operator_dag
+[2022-07-03 16:20:22,901] {logging_mixin.py:115} INFO - [2022-07-03 16:20:22,901] {manager.py:508} INFO - Created Permission View: can edit on DAG:my_bash_operator_dag
+[2022-07-03 16:20:22,901] {logging_mixin.py:115} INFO - [2022-07-03 16:20:22,901] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:20:22,907] {logging_mixin.py:115} INFO - [2022-07-03 16:20:22,907] {dag.py:2398} INFO - Creating ORM DAG for my_bash_operator_dag
+[2022-07-03 16:20:22,916] {logging_mixin.py:115} INFO - [2022-07-03 16:20:22,916] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-01-07T00:00:00+00:00, run_after=2022-01-08T00:00:00+00:00
+[2022-07-03 16:20:22,929] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.133 seconds
+[2022-07-03 16:20:53,008] {processor.py:153} INFO - Started process (PID=1746) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:53,020] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:20:53,022] {logging_mixin.py:115} INFO - [2022-07-03 16:20:53,021] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:53,036] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:20:53,061] {logging_mixin.py:115} INFO - [2022-07-03 16:20:53,061] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:20:53,077] {logging_mixin.py:115} INFO - [2022-07-03 16:20:53,077] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-01-07T00:00:00+00:00, run_after=2022-01-08T00:00:00+00:00
+[2022-07-03 16:20:53,085] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.087 seconds
+[2022-07-03 16:21:15,036] {processor.py:153} INFO - Started process (PID=1883) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:21:15,037] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:21:15,037] {logging_mixin.py:115} INFO - [2022-07-03 16:21:15,037] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:21:15,042] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:21:15,067] {logging_mixin.py:115} INFO - [2022-07-03 16:21:15,067] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:21:15,089] {logging_mixin.py:115} INFO - [2022-07-03 16:21:15,089] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-02-17T00:00:00+00:00, run_after=2022-02-18T00:00:00+00:00
+[2022-07-03 16:21:15,102] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.068 seconds
+[2022-07-03 16:21:45,160] {processor.py:153} INFO - Started process (PID=2138) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:21:45,160] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:21:45,160] {logging_mixin.py:115} INFO - [2022-07-03 16:21:45,160] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:21:45,164] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:21:45,184] {logging_mixin.py:115} INFO - [2022-07-03 16:21:45,184] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:21:45,202] {logging_mixin.py:115} INFO - [2022-07-03 16:21:45,202] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-05-02T00:00:00+00:00, run_after=2022-05-03T00:00:00+00:00
+[2022-07-03 16:21:45,212] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.055 seconds
+[2022-07-03 16:22:15,266] {processor.py:153} INFO - Started process (PID=2364) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:15,277] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:22:15,277] {logging_mixin.py:115} INFO - [2022-07-03 16:22:15,277] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:15,282] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:15,300] {logging_mixin.py:115} INFO - [2022-07-03 16:22:15,300] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:22:15,316] {logging_mixin.py:115} INFO - [2022-07-03 16:22:15,316] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:22:15,324] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.061 seconds
+[2022-07-03 16:22:37,318] {processor.py:153} INFO - Started process (PID=2387) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:37,326] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:22:37,327] {logging_mixin.py:115} INFO - [2022-07-03 16:22:37,326] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:37,334] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:37,388] {logging_mixin.py:115} INFO - [2022-07-03 16:22:37,388] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:22:37,401] {logging_mixin.py:115} INFO - [2022-07-03 16:22:37,401] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:22:37,411] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.096 seconds
+[2022-07-03 16:22:46,410] {processor.py:153} INFO - Started process (PID=2392) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:46,413] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:22:46,414] {logging_mixin.py:115} INFO - [2022-07-03 16:22:46,414] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:46,432] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:22:46,450] {logging_mixin.py:115} INFO - [2022-07-03 16:22:46,450] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:22:46,468] {logging_mixin.py:115} INFO - [2022-07-03 16:22:46,468] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:22:46,480] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.078 seconds
+[2022-07-03 16:23:02,470] {processor.py:153} INFO - Started process (PID=2415) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:02,480] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:23:02,481] {logging_mixin.py:115} INFO - [2022-07-03 16:23:02,481] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:02,485] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:02,495] {logging_mixin.py:115} INFO - [2022-07-03 16:23:02,495] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:23:02,512] {logging_mixin.py:115} INFO - [2022-07-03 16:23:02,512] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:23:02,522] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.054 seconds
+[2022-07-03 16:23:32,572] {processor.py:153} INFO - Started process (PID=2447) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:32,574] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:23:32,575] {logging_mixin.py:115} INFO - [2022-07-03 16:23:32,575] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:32,578] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:32,621] {logging_mixin.py:115} INFO - [2022-07-03 16:23:32,621] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:23:32,635] {logging_mixin.py:115} INFO - [2022-07-03 16:23:32,635] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:23:32,644] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.074 seconds
+[2022-07-03 16:23:35,588] {processor.py:153} INFO - Started process (PID=2452) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:35,599] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:23:35,600] {logging_mixin.py:115} INFO - [2022-07-03 16:23:35,600] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:35,607] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:23:35,617] {logging_mixin.py:115} INFO - [2022-07-03 16:23:35,617] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:23:35,633] {logging_mixin.py:115} INFO - [2022-07-03 16:23:35,633] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:23:35,642] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.058 seconds
+[2022-07-03 16:24:05,698] {processor.py:153} INFO - Started process (PID=2484) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:05,707] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:24:05,707] {logging_mixin.py:115} INFO - [2022-07-03 16:24:05,707] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:05,711] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:05,730] {logging_mixin.py:115} INFO - [2022-07-03 16:24:05,730] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:24:05,747] {logging_mixin.py:115} INFO - [2022-07-03 16:24:05,747] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:24:05,755] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.059 seconds
+[2022-07-03 16:24:35,786] {processor.py:153} INFO - Started process (PID=2513) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:35,786] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:24:35,786] {logging_mixin.py:115} INFO - [2022-07-03 16:24:35,786] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:35,791] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:35,814] {logging_mixin.py:115} INFO - [2022-07-03 16:24:35,814] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:24:35,831] {logging_mixin.py:115} INFO - [2022-07-03 16:24:35,831] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:24:35,841] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.058 seconds
+[2022-07-03 16:24:41,824] {processor.py:153} INFO - Started process (PID=2527) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:41,833] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:24:41,833] {logging_mixin.py:115} INFO - [2022-07-03 16:24:41,833] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:41,838] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:24:41,881] {logging_mixin.py:115} INFO - [2022-07-03 16:24:41,881] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:24:41,894] {logging_mixin.py:115} INFO - [2022-07-03 16:24:41,894] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:24:41,904] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.081 seconds
+[2022-07-03 16:25:11,957] {processor.py:153} INFO - Started process (PID=2565) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:11,968] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:25:11,968] {logging_mixin.py:115} INFO - [2022-07-03 16:25:11,968] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:11,972] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:11,991] {logging_mixin.py:115} INFO - [2022-07-03 16:25:11,991] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:25:12,009] {logging_mixin.py:115} INFO - [2022-07-03 16:25:12,009] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:25:12,019] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.064 seconds
+[2022-07-03 16:25:42,093] {processor.py:153} INFO - Started process (PID=2588) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:42,096] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:25:42,098] {logging_mixin.py:115} INFO - [2022-07-03 16:25:42,098] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:42,113] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:42,141] {logging_mixin.py:115} INFO - [2022-07-03 16:25:42,141] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:25:42,161] {logging_mixin.py:115} INFO - [2022-07-03 16:25:42,161] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:25:42,170] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.084 seconds
+[2022-07-03 16:25:59,119] {processor.py:153} INFO - Started process (PID=2611) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:59,130] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:25:59,131] {logging_mixin.py:115} INFO - [2022-07-03 16:25:59,131] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:59,135] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:25:59,181] {logging_mixin.py:115} INFO - [2022-07-03 16:25:59,181] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:25:59,194] {logging_mixin.py:115} INFO - [2022-07-03 16:25:59,194] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:25:59,204] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.086 seconds
+[2022-07-03 16:26:10,250] {processor.py:153} INFO - Started process (PID=2625) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:10,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:26:10,252] {logging_mixin.py:115} INFO - [2022-07-03 16:26:10,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:10,270] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:10,287] {logging_mixin.py:115} INFO - [2022-07-03 16:26:10,287] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:26:10,304] {logging_mixin.py:115} INFO - [2022-07-03 16:26:10,304] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:26:10,313] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.070 seconds
+[2022-07-03 16:26:28,279] {processor.py:153} INFO - Started process (PID=2646) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:28,286] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:26:28,287] {logging_mixin.py:115} INFO - [2022-07-03 16:26:28,287] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:28,293] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:28,306] {logging_mixin.py:115} INFO - [2022-07-03 16:26:28,306] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:26:28,326] {logging_mixin.py:115} INFO - [2022-07-03 16:26:28,326] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:26:28,338] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.062 seconds
+[2022-07-03 16:26:35,366] {processor.py:153} INFO - Started process (PID=2653) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:35,377] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:26:35,377] {logging_mixin.py:115} INFO - [2022-07-03 16:26:35,377] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:35,382] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:26:35,433] {logging_mixin.py:115} INFO - [2022-07-03 16:26:35,433] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:26:35,454] {logging_mixin.py:115} INFO - [2022-07-03 16:26:35,454] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:26:35,473] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.109 seconds
+[2022-07-03 16:27:05,551] {processor.py:153} INFO - Started process (PID=2694) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:05,552] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:27:05,553] {logging_mixin.py:115} INFO - [2022-07-03 16:27:05,553] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:05,564] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:05,583] {logging_mixin.py:115} INFO - [2022-07-03 16:27:05,583] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:27:05,598] {logging_mixin.py:115} INFO - [2022-07-03 16:27:05,598] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:27:05,607] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.064 seconds
+[2022-07-03 16:27:35,668] {processor.py:153} INFO - Started process (PID=2726) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:35,679] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:27:35,679] {logging_mixin.py:115} INFO - [2022-07-03 16:27:35,679] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:35,683] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:35,707] {logging_mixin.py:115} INFO - [2022-07-03 16:27:35,706] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:27:35,730] {logging_mixin.py:115} INFO - [2022-07-03 16:27:35,730] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:27:35,740] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.073 seconds
+[2022-07-03 16:27:40,682] {processor.py:153} INFO - Started process (PID=2731) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:40,685] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:27:40,685] {logging_mixin.py:115} INFO - [2022-07-03 16:27:40,685] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:40,691] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:27:40,717] {logging_mixin.py:115} INFO - [2022-07-03 16:27:40,717] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:27:40,734] {logging_mixin.py:115} INFO - [2022-07-03 16:27:40,734] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:27:40,742] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.062 seconds
+[2022-07-03 16:28:10,794] {processor.py:153} INFO - Started process (PID=2763) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:10,805] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:28:10,806] {logging_mixin.py:115} INFO - [2022-07-03 16:28:10,806] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:10,810] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:10,827] {logging_mixin.py:115} INFO - [2022-07-03 16:28:10,827] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:28:10,845] {logging_mixin.py:115} INFO - [2022-07-03 16:28:10,845] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:28:10,855] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.062 seconds
+[2022-07-03 16:28:40,931] {processor.py:153} INFO - Started process (PID=2786) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:40,932] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:28:40,933] {logging_mixin.py:115} INFO - [2022-07-03 16:28:40,933] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:40,949] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:40,974] {logging_mixin.py:115} INFO - [2022-07-03 16:28:40,974] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:28:40,990] {logging_mixin.py:115} INFO - [2022-07-03 16:28:40,990] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:28:40,998] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.075 seconds
+[2022-07-03 16:28:44,931] {processor.py:153} INFO - Started process (PID=2800) to work on /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:44,931] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_bash_operator_dag.py for tasks to queue
+[2022-07-03 16:28:44,932] {logging_mixin.py:115} INFO - [2022-07-03 16:28:44,932] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:44,935] {processor.py:651} INFO - DAG(s) dict_keys(['my_bash_operator_dag']) retrieved from /opt/airflow/dags/my_bash_operator_dag.py
+[2022-07-03 16:28:44,950] {logging_mixin.py:115} INFO - [2022-07-03 16:28:44,950] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-03 16:28:44,963] {logging_mixin.py:115} INFO - [2022-07-03 16:28:44,963] {dag.py:2931} INFO - Setting next_dagrun for my_bash_operator_dag to 2022-07-03T00:00:00+00:00, run_after=2022-07-04T00:00:00+00:00
+[2022-07-03 16:28:44,971] {processor.py:161} INFO - Processing /opt/airflow/dags/my_bash_operator_dag.py took 0.042 seconds
