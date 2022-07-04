@@ -1594,3 +1594,345 @@ Traceback (most recent call last):
 TypeError: missing a required argument: 'greet'
 [2022-07-04 18:55:57,681] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
 [2022-07-04 18:55:57,697] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.054 seconds
+[2022-07-04 18:56:27,832] {processor.py:153} INFO - Started process (PID=11059) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:56:27,844] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:56:27,845] {logging_mixin.py:115} INFO - [2022-07-04 18:56:27,845] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:56:27,887] {logging_mixin.py:115} INFO - [2022-07-04 18:56:27,884] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 51, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 47, in hello_world_etl
+    greet(name=name, age=age) >> set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 172, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 3015, in bind
+    return args[0]._bind(args[1:], kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 2930, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'greet'
+[2022-07-04 18:56:27,887] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:56:27,903] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.079 seconds
+[2022-07-04 18:56:57,963] {processor.py:153} INFO - Started process (PID=11099) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:56:57,971] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:56:57,972] {logging_mixin.py:115} INFO - [2022-07-04 18:56:57,972] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:56:57,983] {logging_mixin.py:115} INFO - [2022-07-04 18:56:57,982] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 51, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 47, in hello_world_etl
+    greet(name=name, age=age) >> set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 172, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 3015, in bind
+    return args[0]._bind(args[1:], kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 2930, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'greet'
+[2022-07-04 18:56:57,983] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:56:57,995] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.034 seconds
+[2022-07-04 18:57:28,096] {processor.py:153} INFO - Started process (PID=11134) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:57:28,107] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:57:28,109] {logging_mixin.py:115} INFO - [2022-07-04 18:57:28,109] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:57:28,147] {logging_mixin.py:115} INFO - [2022-07-04 18:57:28,144] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 51, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 47, in hello_world_etl
+    greet(name=name, age=age) >> set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 172, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 3015, in bind
+    return args[0]._bind(args[1:], kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 2930, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'greet'
+[2022-07-04 18:57:28,147] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:57:28,160] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.073 seconds
+[2022-07-04 18:57:58,320] {processor.py:153} INFO - Started process (PID=11176) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:57:58,320] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:57:58,322] {logging_mixin.py:115} INFO - [2022-07-04 18:57:58,322] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:57:58,353] {logging_mixin.py:115} INFO - [2022-07-04 18:57:58,351] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 51, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 47, in hello_world_etl
+    greet(name=name, age=age) >> set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 172, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 3015, in bind
+    return args[0]._bind(args[1:], kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 2930, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'greet'
+[2022-07-04 18:57:58,354] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:57:58,369] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.057 seconds
+[2022-07-04 18:58:28,464] {processor.py:153} INFO - Started process (PID=11218) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:28,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:58:28,466] {logging_mixin.py:115} INFO - [2022-07-04 18:58:28,466] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:28,487] {logging_mixin.py:115} INFO - [2022-07-04 18:58:28,485] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 51, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 47, in hello_world_etl
+    greet(name=name, age=age) >> set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 172, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 3015, in bind
+    return args[0]._bind(args[1:], kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 2930, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'greet'
+[2022-07-04 18:58:28,488] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:28,503] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.042 seconds
+[2022-07-04 18:58:40,535] {processor.py:153} INFO - Started process (PID=11237) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:40,535] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:58:40,536] {logging_mixin.py:115} INFO - [2022-07-04 18:58:40,536] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:40,546] {logging_mixin.py:115} INFO - [2022-07-04 18:58:40,545] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 48, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 45, in hello_world_etl
+    name_dict = set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 172, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 3015, in bind
+    return args[0]._bind(args[1:], kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 2930, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'greet'
+[2022-07-04 18:58:40,546] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:40,558] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.025 seconds
+[2022-07-04 18:58:45,583] {processor.py:153} INFO - Started process (PID=11247) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:45,584] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:58:45,584] {logging_mixin.py:115} INFO - [2022-07-04 18:58:45,584] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:45,595] {logging_mixin.py:115} INFO - [2022-07-04 18:58:45,593] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 36, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 33, in hello_world_etl
+    name_dict = set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 172, in __init__
+    inspect.signature(python_callable).bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 3015, in bind
+    return args[0]._bind(args[1:], kwargs)
+  File "/usr/local/lib/python3.7/inspect.py", line 2930, in _bind
+    raise TypeError(msg) from None
+TypeError: missing a required argument: 'greet'
+[2022-07-04 18:58:45,595] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:45,607] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.026 seconds
+[2022-07-04 18:58:53,620] {processor.py:153} INFO - Started process (PID=11261) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:53,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:58:53,623] {logging_mixin.py:115} INFO - [2022-07-04 18:58:53,623] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:53,654] {logging_mixin.py:115} INFO - [2022-07-04 18:58:53,652] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 36, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 33, in hello_world_etl
+    name_dict = set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 176, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 744, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to _PythonDecoratedOperator (task_id: set_multiple_name). Invalid arguments were:
+**kwargs: {'multiple_output': True}
+[2022-07-04 18:58:53,654] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:58:53,670] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.058 seconds
+[2022-07-04 18:59:23,738] {processor.py:153} INFO - Started process (PID=11303) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:23,739] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:59:23,739] {logging_mixin.py:115} INFO - [2022-07-04 18:59:23,739] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:23,756] {logging_mixin.py:115} INFO - [2022-07-04 18:59:23,754] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 36, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 33, in hello_world_etl
+    name_dict = set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 176, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 744, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to _PythonDecoratedOperator (task_id: set_multiple_name). Invalid arguments were:
+**kwargs: {'multiple_output': True}
+[2022-07-04 18:59:23,756] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:23,775] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.039 seconds
+[2022-07-04 18:59:27,794] {processor.py:153} INFO - Started process (PID=11308) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:27,794] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:59:27,794] {logging_mixin.py:115} INFO - [2022-07-04 18:59:27,794] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:27,804] {logging_mixin.py:115} INFO - [2022-07-04 18:59:27,803] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/my_taskflow_api_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 36, in <module>
+    greet_dag = hello_world_etl()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dag.py", line 2979, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/my_taskflow_api_dag.py", line 33, in hello_world_etl
+    name_dict = set_multiple_name()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 264, in __call__
+    **self.kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/python.py", line 55, in __init__
+    **kwargs,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/decorators/base.py", line 176, in __init__
+    super().__init__(task_id=task_id, **kwargs_to_upstream, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 156, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 390, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 744, in __init__
+    f"Invalid arguments were passed to {self.__class__.__name__} (task_id: {task_id}). "
+airflow.exceptions.AirflowException: Invalid arguments were passed to _PythonDecoratedOperator (task_id: set_multiple_name). Invalid arguments were:
+**kwargs: {'multiple_output': True}
+[2022-07-04 18:59:27,804] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:27,816] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.024 seconds
+[2022-07-04 18:59:57,949] {processor.py:153} INFO - Started process (PID=11350) to work on /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:57,952] {processor.py:641} INFO - Processing file /opt/airflow/dags/my_taskflow_api_dag.py for tasks to queue
+[2022-07-04 18:59:57,954] {logging_mixin.py:115} INFO - [2022-07-04 18:59:57,954] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:57,986] {processor.py:651} INFO - DAG(s) dict_keys(['dag_with_taskflow_api']) retrieved from /opt/airflow/dags/my_taskflow_api_dag.py
+[2022-07-04 18:59:58,033] {logging_mixin.py:115} INFO - [2022-07-04 18:59:58,033] {dag.py:2379} INFO - Sync 1 DAGs
+[2022-07-04 18:59:58,047] {logging_mixin.py:115} INFO - [2022-07-04 18:59:58,047] {dag.py:2931} INFO - Setting next_dagrun for dag_with_taskflow_api to 2022-07-04T00:00:00+00:00, run_after=2022-07-05T00:00:00+00:00
+[2022-07-04 18:59:58,060] {processor.py:161} INFO - Processing /opt/airflow/dags/my_taskflow_api_dag.py took 0.118 seconds

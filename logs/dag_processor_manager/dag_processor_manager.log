@@ -3498,3 +3498,83 @@ File Path                                    PID    Runtime      # DAGs    # Err
 /opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.11s           2022-07-04T18:55:37
 /opt/airflow/dags/my_python_operator_dag.py                           1           0  0.05s           2022-07-04T18:55:43
 ================================================================================
+[2022-07-04 18:56:32,849] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_taskflow_api_dag.py                              0           1  0.10s           2022-07-04T18:56:27
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.06s           2022-07-04T18:56:07
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.07s           2022-07-04T18:56:13
+================================================================================
+[2022-07-04 18:57:02,971] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_taskflow_api_dag.py                              0           1  0.04s           2022-07-04T18:56:58
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.06s           2022-07-04T18:56:37
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.11s           2022-07-04T18:56:43
+================================================================================
+[2022-07-04 18:57:33,146] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_taskflow_api_dag.py                              0           1  0.10s           2022-07-04T18:57:28
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.12s           2022-07-04T18:57:08
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.07s           2022-07-04T18:57:14
+================================================================================
+[2022-07-04 18:58:03,326] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_taskflow_api_dag.py                              0           1  0.08s           2022-07-04T18:57:58
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.09s           2022-07-04T18:57:38
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.09s           2022-07-04T18:57:44
+================================================================================
+[2022-07-04 18:58:33,477] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_taskflow_api_dag.py                              0           1  0.06s           2022-07-04T18:58:28
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.07s           2022-07-04T18:58:08
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.10s           2022-07-04T18:58:14
+================================================================================
+[2022-07-04 18:59:03,646] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_taskflow_api_dag.py                              0           1  0.08s           2022-07-04T18:58:53
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.06s           2022-07-04T18:58:38
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.11s           2022-07-04T18:58:44
+================================================================================
+[2022-07-04 18:59:33,804] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_taskflow_api_dag.py                              0           1  0.05s           2022-07-04T18:59:27
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.10s           2022-07-04T18:59:08
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.05s           2022-07-04T18:59:14
+================================================================================
+[2022-07-04 19:00:03,961] {manager.py:809} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/my_bash_operator_dag.py                             1           0  0.06s           2022-07-04T18:59:38
+/opt/airflow/dags/my_python_operator_dag.py                           1           0  0.06s           2022-07-04T18:59:44
+/opt/airflow/dags/my_taskflow_api_dag.py                              1           0  0.14s           2022-07-04T18:59:58
+================================================================================
