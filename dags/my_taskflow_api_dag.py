@@ -26,7 +26,7 @@ def hello_world_etl():
     def greet(name, age):
         print(f'My name is {name}. Im {age} years old')
 
-    @task(multiple_outputs=True)
+    @task(multiple_output=True)
     def set_multiple_name(greet):
         return {
             'first_name': 'nguyen',
